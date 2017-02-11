@@ -11,7 +11,7 @@
     
  Console.log the following phrase by accessing the appropriate object properties:
  
- "My dog name is age year old likes to speak."*/ 
+ "My dog `name` is `age` year old likes to `speak`."*/ 
 
 
    /* # Plain object and adding properties
