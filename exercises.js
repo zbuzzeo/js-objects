@@ -1,68 +1,81 @@
-/*Objects in Javascript can be compared to objects in real life. Objects has a collection of properties associated with it (known as key-value pairs) and are basically the same as ordinary variables.*/ 
+/*
+Objects in Javascript can be compared to objects in real life. Objects has a collection of properties associated with it (known as key-value pairs) and are basically the same as ordinary variables.
+*/ 
 
-   /*A literal object. 
+
+/*
+A literal object. 
    Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
    
     - add a key named `name` and set it to a string value of your choice
     - add a key named `age` and set it to a number value of your choice
     - add a key named `vegeterian` and set it to a boolean value of your choice
     - add a key named `color` and set it to an array with two string elements in it
-    - add a key named `speak` which will be a method that returns "woof!"; 
+    - add a key named `speak` which will be a method that return a string "woof!"; 
     
  Console.log the following phrase by accessing the appropriate object properties:
  
- "My dog `name` is `age` year old likes to `speak`."*/ 
-
-
-   /* # Plain object and adding properties
-        Declare a variable named `plainBox` and set its value to be an EMPTY object.
-        Next, you will add three properties to this object. Each property declaration expression will be on its own line and           ending with semicolons (`;`). This is just one way of adding properties to an object.
-            - Add a property named `color` and set it the name of any color.
-            - Add a property named `size` and set it to a number value between `0` and `20`.
-            - Add a property named `contents` and set it to be an empty array.
- */
+ "My dog `name` is `age` year old likes to `speak`."
+ */ 
 
 
 /*
-    # An object with properties declared line by line
-        Declare a variable named `stockCar` and set its value to be an
-        object with its key-value pairs separated by commas (`,`).
-        This is a way of declaring a new object and also being able
-        to add property names and values at the moment an object
-        is created.
+An empty object
+   Declare a variable named `kicks` and assign it to an EMPTY object.
+   Next you will add the following properties to this object. Each property declaration expression will be on its own line and
+   ending with semicolons (`;`). 
+            - add a property named `brand` and set it to your favorite sneaker brand
+            - add a property named `color` and set it the value "red"
+            - add a property named `size` and set it to your shoe size
+            - add a property named `buy` and set it to a method that will return a string "Hell Yeah!"
+            
+  Console.log the object.
+*/
+
+
+/* 
+   Declare a variable named `plainBox` and set its value to be an EMPTY object.
+   Next, you will add three properties to this object. 
+            - add a property named `color` and set it the name of any color.
+            - add a property named `size` and set it to a number value between `0` and `20`.
+            - add a property named `contents` and set it to be an empty array.
+*/
+
+
+/*
+   Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
             - add a key named `model` and set its value to the name of an American car manufacturer.
             - add a key named `year` and set it to be a value above 2000 but below 2016.
             - add a key named `automaticTransmission` and give it a Boolean value of your choice.
             - add a key named `driver` and set it to be `null`.
             - add a key named `passengers` and set it to be an empty array.
- */
+*/
 
 
 /*
-    Add new property inside a function
-        Declare a variable named `plainPerson`. Set its value to be an empty object with no properties.
+   Add new property inside a function
+   Declare a variable named `plainPerson`. Set its value to be an EMPTY object with no properties.
 
-        Next, declare a function named `buildPerson` and then define three parameters. The first parameter will be named  
-        `person` and the second will be `nameString` and the third will be `age`. Within this function you will modify the 
-        `person` object by:
+   Next, declare a function named `buildPerson` and then define three parameters. The first parameter will be named `person` 
+   and the second will be `nameString` and the third will be `age`. Within this function you will modify the `person` object 
+   by:
             - adding a property called `name` and set its value to be the second parameter.
             - adding a property called `age` and set its value to be the third parameter.
 
-        The function will return the first parameter.
-
-        Finally, invoke your new function while passing in the `plainPerson` object and additional agrument values, then store 
-        the return value in a variable named `completePerson`. Use `console.log` three times to print the entire object, just 
-        the value at `name`, and just the value at `age`.
+   The function will return the first parameter.
+   Finally, invoke your new function while passing in the `plainPerson` object and additional agrument values, then store 
+   the return value in a variable named `completePerson`. Use `console.log` three times to print the entire object, just 
+   the value at `name`, and just the value at `age`.
  */
 
 
 /*
-    # Display values of objects that are inside an array
-        Declare a new variable named `arrayOfObjects` and set it to be [this array of objects]
-        (https://gist.github.com/sgnl/958adf99007329d2e4ff).
+   Display values of objects that are inside an array
+   Declare a new variable named `arrayOfObjects` and set it to be [this array of objects
+   (https://gist.github.com/sgnl/958adf99007329d2e4ff).
 
-        Declare a new function named `printProcessedOrders`and set one parameter called `orders`. Within this function you 
-        will return a string that prints the order details to the page in the following format.
+   Declare a new function named `printProcessedOrders`and set one parameter called `orders`. Within this function you 
+   will return a string that prints the order details to the page in the following format.
 
         Example output:
             =====
@@ -83,25 +96,23 @@
 
 
 /*
-    # Addition with an object
-        Declare a new variable named sumObj and set it to be a new object with the properties `a`, `b`, and `result`. 
-        Properties 'a' and 'b' will be set to a number and result will be 'undefined.'
+   Addition with an object
+   Declare a new variable named sumObj and set it to be a new object with the properties `a`, `b`, and `result`. 
+   Properties 'a' and 'b' will be set to a number and result will be 'undefined.'
 
-        Declare a new function named objectAddition. Declare the first parameter, which will be an object. Within this 
-        function, you will access the values stored `a` and `b` of the object being passed in. Add the these values and store 
-        the sum to this object's `result` property. This function will return the object.
+   Declare a new function named objectAddition. Declare the first parameter, which will be an object. Within this 
+   function, you will access the values stored `a` and `b` of the object being passed in. Add the these values and store 
+   the sum to this object's `result` property. This function will return the object.
 
         Invoke your function and pass in your object, store the result to a variable named sumObjResult and use `console.log` 
         to inspect your results.
-
-        Go ahead and create some more objects and pass them to this function. Have fun with it.
 */
 
 
 /*
-    # Print sum function and add as new key-value
-        Declare a new function named printObj and a single parameter which will be the object from the challenge just above. 
-        Within this function you are to print to the screen a message of the operation performed. For Example:
+   Print sum function and add as new key-value
+   Declare a new function named printObj and a single parameter which will be the object from the challenge just above. 
+   Within this function you are to print to the screen a message of the operation performed. For Example:
 
         // if this object was passed into your function:
         { a: 10, b:67, result: 77 }
@@ -117,7 +128,7 @@
 
 
 /*
-    # Putting stuff in `plainBox`
+   Putting stuff in `plainBox`
         Declare a function named putInPlainBox and a single parameter which will be an object. Within this function, write a 
         FOR loop that adds **10** random number values to the array referenced at the `contents` property of the object being 
         passed in. This function will return the object.
@@ -128,7 +139,7 @@
 
 
 /*
-    # Detecting transmission
+   Detecting transmission
         Declare a function named detectingTransmission and a single parameter which will be an object. Within this function 
         you will check to see if the car has an automatic or manual transmission and print the results on screen.
 
@@ -140,7 +151,7 @@
 
 
 /*
-    # Who's driving this thing?!
+   Who's driving this thing?!
         As you may have noticed that the `stockCar` doesn't have a driver!
 
         Declare a function named addDriver with two parameters. The first parameter will be an object with represents a 
@@ -153,7 +164,7 @@
 
 
 /*
-    # Final Boss
+    #Final Boss
     The Dev League instructors want to ride your whip!
 
         Declare a variable named `passengerList` and set it to be `['Jon', 'Jason', 'Tony', 'Joe', 'Jesse', 'Nigel', 'Kelli', 'Marifel', 'Victor']`
