@@ -7,7 +7,7 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
 
 /*
 1.  Declare a variable named `books` and create the following properties (key-value pairs to the object:
-    - add a key named `tile` and a string value of "The Obstacle is the Way"
+    - add a key named `title` and a string value of "The Obstacle is the Way"
     - add a key named `author` and a string value of "Ryan Holiday"
     - add a key named `category` and string value of "Self Help"
     - add a key named `pages` and number value of 200
