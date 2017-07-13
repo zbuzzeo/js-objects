@@ -11,6 +11,8 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     - add a key named `author` and a string value of "Ryan Holiday"
     - add a key named `category` and string value of "Self Help"
     - add a key named `pages` and number value of 200
+    
+    Console.log you object.
 */
     
   
