@@ -264,8 +264,6 @@ function objectAddition(obj){
 var sumObjResult = objectAddition(sumObj);
 console.log(sumObjResult);
 
-
-
 /*
 9. Print sum function and add as new key-value
    Declare a new function named printObj and a single parameter which will be the object from the challenge just above. 
@@ -283,7 +281,11 @@ console.log(sumObjResult);
         **create more** objects and invoke your function multiple times.
  */
 
+function printObj(obj){
+  return obj.a + " + " + obj.b + " = " + obj.result;
+}
 
+console.log(printObj(sumObj));
 /*
 10. Putting stuff in `plainBox`
         Declare a function named putInPlainBox and a single parameter which will be an object. Within this function, write a 
