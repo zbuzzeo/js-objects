@@ -84,7 +84,16 @@ console.log(kicks);
             - add a property named `color` and set it the name of any color.
             - add a property named `size` and set it to a number value between `0` and `20`.
             - add a property named `contents` and set it to be an empty array.
+
+            console.log the object
 */
+
+var plainBox = {};
+plainBox.color = "red";
+plainBox.size = 18;
+plainBox.contents = [];
+
+console.log(plainBox);
 
 
 /*

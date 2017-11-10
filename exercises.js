@@ -12,7 +12,7 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     - add a key named `category` and string value of "Self Help"
     - add a key named `pages` and number value of 200
     
-    Console.log your object.
+    Console.log the object.
 */
     
   
@@ -55,6 +55,8 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             - add a property named `color` and set it the name of any color.
             - add a property named `size` and set it to a number value between `0` and `20`.
             - add a property named `contents` and set it to be an empty array.
+
+  console.log the object
 */
 
 
@@ -65,6 +67,8 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             - add a key named `automaticTransmission` and give it a Boolean value of your choice.
             - add a key named `driver` and set it to be `null`.
             - add a key named `passengers` and set it to be an empty array.
+
+    console.log the object
 */
 
 
