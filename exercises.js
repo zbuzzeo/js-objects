@@ -2,7 +2,6 @@
 Objects in Javascript can be compared to objects in real life. Objects has a collection of properties associated with it (known as key-value pairs) and are basically the same as ordinary variables.
 */ 
 
-
 //A literal object.
 
 /*
@@ -28,7 +27,7 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
  Console.log the following phrase by accessing the appropriate object properties:
  
  
- "My dog `name` is `age` year old and likes to `speak`."
+ "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
 
 
@@ -40,9 +39,10 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
    Next you will add the following properties to this object. Each property declaration expression will be on its own line and
    ending with semicolons (`;`). 
             - add a property named `brand` and set it to your favorite sneaker brand
-            - add a property named `color` and set it the value "red"
+            - add a property named `color` and set it the value "cornflower blue"
             - add a property named `size` and set it to your shoe size
-            - add a property named `buy` and set it to a method that will return a string "Hell Yeah!"
+            - add a property named `price` and set it to a number value between 50 to 100
+            - add a property named `buy` and set it to a method that will return a string "Now I is a cool kid!"
             
   Console.log the object.
 */
@@ -182,6 +182,8 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
      Invoke your function and pass in your objects, store the result to a variable named stockCarWithDriver, and inspect 
       your results. Consider using `plainPerson` as your driver.
  */
+
+
 
 
 /*
