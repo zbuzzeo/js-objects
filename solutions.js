@@ -37,7 +37,7 @@ console.log(books);
  Console.log the following phrase by accessing the appropriate object properties:
  
  
- "My dog `name` is `age` year old and likes to `speak`."
+ "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
 
 var dog = {
@@ -50,7 +50,7 @@ var dog = {
   }
 };
 
-console.log("My dog " + dog.name + " is " + dog.age + " year old and likes to " + dog.speak());
+console.log("My dog " + dog.name + " is " + dog.age + " year old and likes to " + dog.speak() + " at strangers.");
 
 
 //An empty object
@@ -60,19 +60,21 @@ console.log("My dog " + dog.name + " is " + dog.age + " year old and likes to " 
    Next you will add the following properties to this object. Each property declaration expression will be on its own line and
    ending with semicolons (`;`). 
             - add a property named `brand` and set it to your favorite sneaker brand
-            - add a property named `color` and set it the value "red"
+            - add a property named `color` and set it the value "cornflower blue"
             - add a property named `size` and set it to your shoe size
-            - add a property named `buy` and set it to a method that will return a string "Hell Yeah!"
+            - add a property named `price` and set it to a number value between 50 to 100
+            - add a property named `buy` and set it to a method that will return a string "Now I is a cool kid!"
             
   Console.log the object.
 */
 
 var kicks = {};
-kicks.brand = "Nike";
+kicks.brand = "vivo footwear";
 kicks.color = "cornflower blue";
 kicks.size = 11;
+kicks.price = 88;
 kicks.buy = function(){
-  return "Hell Yeah!";
+  return "Now I is a cool kid!";
 }
 
 console.log(kicks);
