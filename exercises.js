@@ -4,6 +4,10 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
 
 //A literal object.
 
+function spacer(exerciseNum){
+      console.log(' \n' + exerciseNum + ':');
+}
+
 /*
 1.  Declare a variable named `books` and create the following properties (key-value pairs to the object:
     - add a key named `title` and a string value of "The Obstacle is the Way"
@@ -13,8 +17,17 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     
     Console.log the object.
 */
-    
-  
+
+var books = {
+      title: 'The Obstacle is the Way',
+      author: 'Ryan Holiday',
+      category: 'Self Help',
+      pages: 200,
+}
+
+spacer(1);
+console.log(books);
+
 /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
    
@@ -26,11 +39,21 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
         
  Console.log the following phrase by accessing the appropriate object properties:
  
- 
  "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
 
+var dog = {
+      name: 'Sparky',
+      age: 3,
+      vegetarian: false,
+      color: ['Brown', 'Spotted'],
+      speak: function(){
+            return 'bark!';
+      },
+}
 
+spacer(2);
+console.log('My dog', dog.name, 'is', dog.age, 'years old and likes to', dog.speak(), 'at strangers.');
 
 //An empty object
 
@@ -46,6 +69,7 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             
   Console.log the object.
 */
+
 
 
 /* 
