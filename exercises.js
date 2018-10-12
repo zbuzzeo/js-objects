@@ -365,9 +365,15 @@ console.log(detectingTransmission(stockCar));
      Invoke your function and pass in your objects, store the result to a variable named stockCarWithDriver, and inspect 
       your results. Consider using `plainPerson` as your driver.
  */
+var stockCarWithDriver = addDriver(stockCar, plainPerson['name']);
 
+function addDriver(objCar, namePerson){
+      objCar.driver = namePerson;
+      return 'The driver is: ' + objCar.driver + '.';
+}
 
-
+spacer(12);
+console.log(stockCarWithDriver);
 
 /*
     #Final Boss
