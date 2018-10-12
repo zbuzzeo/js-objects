@@ -119,7 +119,7 @@ var stockCar = {
       year = '2014',
       AutomaticTransmission = true,
       driver = null,
-      passengers = [];
+      passengers = [],
 }
 
 spacer(5);
