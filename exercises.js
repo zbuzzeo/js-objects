@@ -407,3 +407,42 @@ console.log(stockCarWithDriver);
         'Marifel, age 19, is riding dirty!'
         'Victor, age 19, is riding dirty!'
  */
+
+var passengerList = [
+      'Jon',
+      'Jason',
+      'Tony',
+      'Joe',
+      'Jesse',
+      'Nigel',
+      'Kelli',
+      'Marifel',
+      'Victor',
+];
+
+var passengerAges = [ 19, 12, 21, 22, 16, 9, 19, 20, 15 ];
+
+function addPassengers(objCar, arrNames, arrAges){
+      for (var current = 0; current < arrNames.length; current++){
+            //    Because arrNames and arrAges are in sequence with each other, we only need one for loop for both arrays.
+            //    Now we must create an object for each person with their name and age as properties. Follow plainPerson format.
+            var newPassenger = {};
+            newPassenger.name = arrNames[current];
+            newPassenger.age = arrAges[current];
+            objCar.passengers.push(newPassenger);
+      }
+      console.log(objCar.passengers);
+      return objCar;
+}
+
+spacer('Final Boss: 13');
+console.log(addPassengers(stockCar, passengerList, passengerAges));
+
+function displayPassengers(objCar){
+      for (var current = 0; current < objCar.passengers.length; current++){
+            console.log(objCar.passengers[current].name + ', age', objCar.passengers[current].age + ', is riding dirty!');
+      }
+}
+
+spacer('Final Boss: 13-A');
+displayPassengers(stockCar);
