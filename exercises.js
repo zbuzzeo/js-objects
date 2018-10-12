@@ -115,11 +115,11 @@ console.log(plainBox);
 */
 
 var stockCar = {
-      model = 'Chevrolet',
-      year = '2014',
-      AutomaticTransmission = true,
-      driver = null,
-      passengers = [],
+      model: 'Chevrolet',
+      year: '2014',
+      automaticTransmission: true,
+      driver: null,
+      passengers: [],
 }
 
 spacer(5);
