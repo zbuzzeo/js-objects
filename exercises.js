@@ -288,6 +288,23 @@ console.log(objectAddition(sumObj));
         **create more** objects and invoke your function multiple times.
  */
 
+ function printObj(object){
+       var output = object.a + ' + ' + object.b + ' = ' + object.result;
+       object.output = output;
+       console.log(output);
+       console.log(object);
+ }
+
+ spacer(9);
+ printObj(sumObj);
+
+ var newObject = {
+       a: 888,
+       b: 1023,
+       result: 1911,
+ }
+
+ printObj(newObject);
 
 /*
 10. Putting stuff in `plainBox`
