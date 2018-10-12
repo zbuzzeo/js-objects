@@ -338,6 +338,21 @@ console.log(putInPlainBox(plainBox));
     Invoke your function and pass in your stockCar object, store the result to a variable named isAutomaticTransmission and use `console.log` to inspect your results.
  */
 
+ function detectingTransmission(object){
+       if (typeof object.automaticTransmission !== 'undefined'){       //    Checks to see if a property 'automaticTransmission' exists;
+            if (object.automaticTransmission === true){
+                  return 'Your car\'s transmission is automatic!';
+            }else{
+                  return 'Your car\'s transmission is manual!';
+            }
+       }else{
+             return 'Does not have transmission!';
+       }
+ }
+
+ spacer(11);
+console.log(detectingTransmission(sumObj));
+console.log(detectingTransmission(stockCar));
 
 /*
 12.  Who's driving this thing?!
