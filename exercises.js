@@ -316,6 +316,16 @@ console.log(objectAddition(sumObj));
         plainBoxResult and use `console.log` to inspect your results.
  */
 
+function putInPlainBox(object){
+      var ceiling = 100;      // max number to be generated.
+      for (var numbersGenerated = 0; numbersGenerated <= 10; numbersGenerated++){
+            plainBox.contents.push(Math.floor(Math.random() * ceiling));
+      }
+      return plainBox.contents;
+}
+
+spacer(10);
+console.log(putInPlainBox(plainBox));
 
 /*
 11. Detecting transmission
