@@ -5,7 +5,7 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
 //A literal object.
 
 function spacer(exerciseNum){
-      console.log(' \n' + exerciseNum + ':');
+      console.log(' \nExercise', exerciseNum + ':');
 }
 
 /*
@@ -23,7 +23,7 @@ var books = {
       author: 'Ryan Holiday',
       category: 'Self Help',
       pages: 200,
-}
+};
 
 spacer(1);
 console.log(books);
@@ -50,7 +50,7 @@ var dog = {
       speak: function(){
             return 'bark!';
       },
-}
+};
 
 spacer(2);
 console.log('My dog', dog.name, 'is', dog.age, 'years old and likes to', dog.speak(), 'at strangers.');
@@ -70,7 +70,7 @@ console.log('My dog', dog.name, 'is', dog.age, 'years old and likes to', dog.spe
   Console.log the object.
 */
 
-var kicks = {}
+var kicks = {};
 
 kicks.brand = 'Nike';
 kicks.color = 'Blue';
@@ -94,7 +94,7 @@ console.log(kicks);
   console.log the object
 */
 
-var plainBox = {}
+var plainBox = {};
 
 plainBox.color = 'Supreme Red';
 plainBox.size = 12.5;
@@ -120,7 +120,7 @@ var stockCar = {
       automaticTransmission: true,
       driver: null,
       passengers: [],
-}
+};
 
 spacer(5);
 console.log(stockCar);
@@ -142,6 +142,19 @@ console.log(stockCar);
    the value at `name`, and just the value at `age`.
  */
 
+ var plainPerson = {};
+
+ function buildPerson(person, nameString, age){
+       person['name'] = nameString;
+       person['age'] = age;
+       return plainPerson;
+ }
+
+spacer(6);
+var completePerson = buildPerson(plainPerson, 'Luke', 19);
+console.log(completePerson);
+console.log(plainPerson['name']);
+console.log(plainPerson['age']);
 
 /*
 7. Display values of objects that are inside an array
